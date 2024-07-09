@@ -5,10 +5,10 @@ import hashlib
 import requests
 from datetime import datetime
 
-BITRIX_CRM_API_URL_1 = "https://b24-rolvpq.bitrix24.ru/rest/1/dxte8zsvvzvusx97/crm.lead.add.json" #добавление лида
-BITRIX_CRM_API_URL_2 = "https://b24-rolvpq.bitrix24.ru/rest/1/dxte8zsvvzvusx97/crm.product.add.json" #добавление продукта
-BITRIX_CRM_API_URL_3 = "https://b24-rolvpq.bitrix24.ru/rest/1/dxte8zsvvzvusx97/crm.contact.add.json" #добавление контакта
-bot = telebot.TeleBot('6929738714:AAFf7yFYP01bVibY8FBs9obyQYBaZfOGe48')  # коннект с ботом @LevisSupportBot
+BITRIX_CRM_API_URL_1 = "" #добавление лида
+BITRIX_CRM_API_URL_2 = "" #добавление продукта
+BITRIX_CRM_API_URL_3 = "" #добавление контакта
+bot = telebot.TeleBot('')  # коннект с ботом @LevisSupportBot
 
 name = None  # создание глобальных переменных
 password = None
